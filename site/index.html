@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#17121f">
+  <title>Cosy — SideStore</title>
+  <style>
+    :root {
+      color-scheme: dark;
+      --bg: #110e16;
+      --panel: #1b1623;
+      --panel-2: #241c2f;
+      --text: #f6f1fb;
+      --muted: #b9afc4;
+      --accent: #a977d7;
+      --accent-2: #c89af1;
+      --border: rgba(255,255,255,.09);
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      min-height: 100vh;
+      font-family: ui-rounded, -apple-system, BlinkMacSystemFont, "SF Pro Display", "Segoe UI", sans-serif;
+      background:
+        radial-gradient(circle at 50% 0%, rgba(169,119,215,.18), transparent 38rem),
+        var(--bg);
+      color: var(--text);
+    }
+    main {
+      width: min(680px, calc(100% - 32px));
+      margin: 0 auto;
+      padding: max(54px, env(safe-area-inset-top)) 0 max(44px, env(safe-area-inset-bottom));
+    }
+    .mark {
+      width: 76px;
+      height: 76px;
+      display: grid;
+      place-items: center;
+      border-radius: 24px;
+      background: linear-gradient(145deg, var(--accent-2), #7650a0);
+      box-shadow: 0 18px 60px rgba(105,65,140,.28);
+      font-size: 39px;
+      margin-bottom: 24px;
+    }
+    h1 { margin: 0; font-size: clamp(42px, 11vw, 68px); letter-spacing: -.055em; line-height: .95; }
+    .lead { margin: 18px 0 0; color: var(--muted); font-size: 18px; line-height: 1.55; max-width: 560px; }
+    .actions { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 30px; }
+    a.button {
+      min-height: 48px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      padding: 0 19px;
+      border-radius: 15px;
+      text-decoration: none;
+      font-weight: 700;
+      border: 1px solid var(--border);
+      background: var(--panel);
+      color: var(--text);
+    }
+    a.button.primary { background: var(--accent); color: #160f1c; border-color: transparent; }
+    .card {
+      margin-top: 42px;
+      padding: 20px;
+      border-radius: 22px;
+      background: linear-gradient(180deg, var(--panel-2), var(--panel));
+      border: 1px solid var(--border);
+    }
+    .row { display: flex; align-items: center; justify-content: space-between; gap: 18px; }
+    .label { color: var(--muted); font-size: 14px; }
+    .value { font-weight: 750; margin-top: 4px; }
+    .status {
+      flex: 0 0 auto;
+      padding: 7px 10px;
+      border-radius: 999px;
+      background: rgba(255,255,255,.07);
+      color: var(--muted);
+      font-size: 13px;
+      font-weight: 650;
+    }
+    .source {
+      margin-top: 16px;
+      padding-top: 16px;
+      border-top: 1px solid var(--border);
+      color: var(--muted);
+      font-size: 13px;
+      overflow-wrap: anywhere;
+    }
+    footer { margin-top: 24px; color: #82768e; font-size: 13px; line-height: 1.5; }
+    footer a { color: inherit; }
+    @media (max-width: 420px) {
+      main { width: min(100% - 24px, 680px); }
+      .actions a { width: 100%; }
+      .row { align-items: flex-start; }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <div class="mark" aria-hidden="true">●</div>
+    <h1>Cosy</h1>
+    <p class="lead">A tiny top-down game for iPhone. This page is the public SideStore distribution endpoint; the game itself is developed in a private repository.</p>
+
+    <div class="actions">
+      <a class="button primary" href="sidestore://source?url=https%3A%2F%2Fdasetwa.github.io%2Fcosy-releases%2Fsource.json">Add to SideStore</a>
+      <a class="button" href="./source.json">View source.json</a>
+    </div>
+
+    <section class="card" aria-label="Release status">
+      <div class="row">
+        <div>
+          <div class="label">Public build</div>
+          <div class="value">Not published yet</div>
+        </div>
+        <div class="status">Pre-release setup</div>
+      </div>
+      <div class="source">SideStore source: https://dasetwa.github.io/cosy-releases/source.json</div>
+    </section>
+
+    <footer>
+      Cosy is proprietary software. Public files here are for official distribution only.<br>
+      <a href="https://github.com/DasEtwa/cosy-releases">GitHub release repository</a>
+    </footer>
+  </main>
+</body>
+</html>
