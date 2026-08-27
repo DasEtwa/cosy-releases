@@ -2,5 +2,29 @@
   "name": "Cosy",
   "identifier": "io.github.dasetwa.cosy.source",
   "sourceURL": "https://dasetwa.github.io/cosy-releases/source.json",
-  "apps": []
+  "apps": [
+    {
+      "name": "Cosy",
+      "bundleIdentifier": "io.github.dasetwa.cosy",
+      "developerName": "DasEtwa",
+      "subtitle": "A tiny cozy top-down world.",
+      "version": "0.0.1",
+      "versionDate": "2026-08-27T11:33:09Z",
+      "versionDescription": "First playable Cosy build: move the Purple Dot, pick up the Stick and see it in your inventory.",
+      "downloadURL": "https://github.com/DasEtwa/cosy-releases/releases/download/v0.0.1/Cosy-v0.0.1.ipa",
+      "localizedDescription": "Cosy is a small, touch-first top-down game about exploring, gathering resources and slowly building up a cozy world.",
+      "iconURL": "https://raw.githubusercontent.com/DasEtwa/cosy-releases/main/site/cosy-icon.png",
+      "tintColor": "#7D2C96",
+      "size": 2806,
+      "versions": [
+        {
+          "version": "0.0.1",
+          "date": "2026-08-27T11:33:09Z",
+          "downloadURL": "https://github.com/DasEtwa/cosy-releases/releases/download/v0.0.1/Cosy-v0.0.1.ipa",
+          "localizedDescription": "First playable Cosy build: move the Purple Dot, pick up the Stick and see it in your inventory.",
+          "size": 2806
+        }
+      ]
+    }
+  ]
 }
