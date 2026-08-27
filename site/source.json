@@ -8,15 +8,22 @@
       "bundleIdentifier": "io.github.dasetwa.cosy",
       "developerName": "DasEtwa",
       "subtitle": "A tiny cozy top-down world.",
-      "version": "0.0.2",
-      "versionDate": "2026-08-27T20:10:31Z",
-      "versionDescription": "World + Marketplace slice: explore a scrolling seeded world, gather Wood and Stone, build a Marketplace, set listings and watch NPC Buyers trade for Gold.",
-      "downloadURL": "https://github.com/DasEtwa/cosy-releases/releases/download/v0.0.2/Cosy-v0.0.2.ipa",
+      "version": "0.0.3",
+      "versionDate": "2026-08-27T21:02:10Z",
+      "versionDescription": "Inventory + Marketplace UI: a 5-slot hotbar, 5x5 inventory, quantity transfers, withdrawals, deposits, price controls and a polished touch-first HUD.",
+      "downloadURL": "https://github.com/DasEtwa/cosy-releases/releases/download/v0.0.3/Cosy-v0.0.3.ipa",
       "localizedDescription": "Cosy is a small, touch-first top-down game about exploring, gathering resources and slowly building up a cozy world.",
       "iconURL": "https://raw.githubusercontent.com/DasEtwa/cosy-releases/main/site/cosy-icon.png",
       "tintColor": "#7D2C96",
-      "size": 1780924,
+      "size": 1784898,
       "versions": [
+        {
+          "version": "0.0.3",
+          "date": "2026-08-27T21:02:10Z",
+          "downloadURL": "https://github.com/DasEtwa/cosy-releases/releases/download/v0.0.3/Cosy-v0.0.3.ipa",
+          "localizedDescription": "Inventory + Marketplace UI: a 5-slot hotbar, 5x5 inventory, quantity transfers, withdrawals, deposits, price controls and a polished touch-first HUD.",
+          "size": 1784898
+        },
         {
           "version": "0.0.2",
           "date": "2026-08-27T20:10:31Z",
