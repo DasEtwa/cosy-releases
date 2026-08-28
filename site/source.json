@@ -8,15 +8,22 @@
       "bundleIdentifier": "io.github.dasetwa.cosy",
       "developerName": "DasEtwa",
       "subtitle": "A tiny cozy top-down world.",
-      "version": "0.0.4",
-      "versionDate": "2026-08-28T08:55:46Z",
-      "versionDescription": "Sprite World: textured grass, sand, gravel and water terrain, varied trees, rock and marketplace sprites, plus the touch-first inventory and marketplace UI.",
-      "downloadURL": "https://github.com/DasEtwa/cosy-releases/releases/download/v0.0.4/Cosy-v0.0.4.ipa",
+      "version": "0.0.5",
+      "versionDate": "2026-08-28T15:11:03Z",
+      "versionDescription": "Terrain and mobile HUD polish: softer deterministic biome edges, organic shore transitions, clearer spacing, and larger iPhone touch targets.",
+      "downloadURL": "https://github.com/DasEtwa/cosy-releases/releases/download/v0.0.5/Cosy-v0.0.5.ipa",
       "localizedDescription": "Cosy is a small, touch-first top-down game about exploring, gathering resources and slowly building up a cozy world.",
       "iconURL": "https://raw.githubusercontent.com/DasEtwa/cosy-releases/main/site/cosy-icon.png",
       "tintColor": "#7D2C96",
-      "size": 16267044,
+      "size": 16266607,
       "versions": [
+        {
+          "version": "0.0.5",
+          "date": "2026-08-28T15:11:03Z",
+          "downloadURL": "https://github.com/DasEtwa/cosy-releases/releases/download/v0.0.5/Cosy-v0.0.5.ipa",
+          "localizedDescription": "Terrain and mobile HUD polish: softer biome edges, organic shore transitions, and larger iPhone touch targets.",
+          "size": 16266607
+        },
         {
           "version": "0.0.4",
           "date": "2026-08-28T08:55:46Z",
