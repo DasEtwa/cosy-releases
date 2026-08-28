@@ -8,15 +8,22 @@
       "bundleIdentifier": "io.github.dasetwa.cosy",
       "developerName": "DasEtwa",
       "subtitle": "A tiny cozy top-down world.",
-      "version": "0.0.3",
-      "versionDate": "2026-08-27T21:02:10Z",
-      "versionDescription": "Inventory + Marketplace UI: a 5-slot hotbar, 5x5 inventory, quantity transfers, withdrawals, deposits, price controls and a polished touch-first HUD.",
-      "downloadURL": "https://github.com/DasEtwa/cosy-releases/releases/download/v0.0.3/Cosy-v0.0.3.ipa",
+      "version": "0.0.4",
+      "versionDate": "2026-08-28T08:55:46Z",
+      "versionDescription": "Sprite World: textured grass, sand, gravel and water terrain, varied trees, rock and marketplace sprites, plus the touch-first inventory and marketplace UI.",
+      "downloadURL": "https://github.com/DasEtwa/cosy-releases/releases/download/v0.0.4/Cosy-v0.0.4.ipa",
       "localizedDescription": "Cosy is a small, touch-first top-down game about exploring, gathering resources and slowly building up a cozy world.",
       "iconURL": "https://raw.githubusercontent.com/DasEtwa/cosy-releases/main/site/cosy-icon.png",
       "tintColor": "#7D2C96",
-      "size": 1784898,
+      "size": 16267044,
       "versions": [
+        {
+          "version": "0.0.4",
+          "date": "2026-08-28T08:55:46Z",
+          "downloadURL": "https://github.com/DasEtwa/cosy-releases/releases/download/v0.0.4/Cosy-v0.0.4.ipa",
+          "localizedDescription": "Sprite World: textured terrain, varied world sprites, and the touch-first inventory and marketplace UI.",
+          "size": 16267044
+        },
         {
           "version": "0.0.3",
           "date": "2026-08-27T21:02:10Z",
