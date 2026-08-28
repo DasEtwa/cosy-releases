@@ -8,15 +8,22 @@
       "bundleIdentifier": "io.github.dasetwa.cosy",
       "developerName": "DasEtwa",
       "subtitle": "A tiny cozy top-down world.",
-      "version": "0.0.5",
-      "versionDate": "2026-08-28T15:11:03Z",
-      "versionDescription": "Terrain and mobile HUD polish: softer deterministic biome edges, organic shore transitions, clearer spacing, and larger iPhone touch targets.",
-      "downloadURL": "https://github.com/DasEtwa/cosy-releases/releases/download/v0.0.5/Cosy-v0.0.5.ipa",
+      "version": "0.0.6",
+      "versionDate": "2026-08-28T22:16:56Z",
+      "versionDescription": "Bug-fix run: lifecycle-safe touch input, frame-stable simulation, bounded world chunks, collision-safe placement, and depth-correct world sprites.",
+      "downloadURL": "https://github.com/DasEtwa/cosy-releases/releases/download/v0.0.6/Cosy-v0.0.6.ipa",
       "localizedDescription": "Cosy is a small, touch-first top-down game about exploring, gathering resources and slowly building up a cozy world.",
       "iconURL": "https://raw.githubusercontent.com/DasEtwa/cosy-releases/main/site/cosy-icon.png",
       "tintColor": "#7D2C96",
-      "size": 16266607,
+      "size": 16277363,
       "versions": [
+        {
+          "version": "0.0.6",
+          "date": "2026-08-28T22:16:56Z",
+          "downloadURL": "https://github.com/DasEtwa/cosy-releases/releases/download/v0.0.6/Cosy-v0.0.6.ipa",
+          "localizedDescription": "Bug-fix run: stable lifecycle/input handling, movement/collision fixes, bounded chunks and corrected sprite depth.",
+          "size": 16277363
+        },
         {
           "version": "0.0.5",
           "date": "2026-08-28T15:11:03Z",
@@ -27,7 +34,7 @@
         {
           "version": "0.0.4",
           "date": "2026-08-28T08:55:46Z",
-          "downloadURL": "https://github.com/DasEtwa/cosy-releases/releases/download/v0.0.4/Cosy-v0.0.4.ipa",
+          "downloadURL": "https://github.com/DasEtwa/cosy-releases/download/v0.0.4/Cosy-v0.0.4.ipa",
           "localizedDescription": "Sprite World: textured terrain, varied world sprites, and the touch-first inventory and marketplace UI.",
           "size": 16267044
         },
